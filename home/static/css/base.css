@@ -264,6 +264,14 @@ body{
 	color:#ffffff;
 	margin:0;
 }
+
+.home-section .home-content h8{
+	font-size:20px;
+	color:#ffffff;
+	margin:0;
+}
+
+
 .home-section .home-content h1{
 	font-size: 60px;
 	margin:0;
@@ -661,6 +669,11 @@ background-color: rgba(0,0,0,0.5);
 	font-weight: 600;
 	margin:0;
 }
+.contact-section .accept{
+	margin-top: 20px;
+
+}
+
 .contact-section .contact-info .info-item p{
 	font-size: 16px;
 	margin:0;
@@ -774,6 +787,56 @@ background-color: rgba(0,0,0,0.5);
     	padding: 55px 5px;
     }
 }
+
+/* .home-section{
+	min-height: 100vh;
+	background-image: url('../images/palsangie.jpeg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	padding:0 15px;
+} */
+
+.slideshow-container img{
+	border-radius: 50%;
+	height: 95vh;
+	width: 95%;
+  	position: relative;
+  	margin: auto;
+	vertical-align: middle;
+	
+
+	
+}
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+  }
+
+  .mySlides {display: none;}
+
+  /* * Fading animation */ */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
 
 
 
